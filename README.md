@@ -14,7 +14,7 @@ maven 引用：
 <dependency>
     <groupId>com.alibaba</groupId>
     <artifactId>fastjson</artifactId>
-    <version>1.2.62</version>
+    <version>1.2.75</version>
 </dependency>
 ```
 
@@ -60,7 +60,7 @@ maven 引用：
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>2.10.1</version>
+    <version>2.11.3</version>
 </dependency>
 ```
 
