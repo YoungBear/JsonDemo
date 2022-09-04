@@ -12,8 +12,8 @@ import com.example.jsondemo.strategy.IJsonStrategy;
  * @description Json工具类，使用单例模式，具体由策略实现
  */
 public class JsonUtils {
-    private IJsonStrategy jsonStrategy;
-    private static JsonUtils INSTANCE = new JsonUtils(new FastjsonStrategy());
+    private final IJsonStrategy jsonStrategy;
+    private static final JsonUtils INSTANCE = new JsonUtils(new FastjsonStrategy());
 
     private JsonUtils(IJsonStrategy jsonStrategy) {
         this.jsonStrategy = jsonStrategy;
