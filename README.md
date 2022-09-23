@@ -2,19 +2,19 @@
 
 常见json解析框架：
 
-- [fastjson](https://github.com/alibaba/fastjson)
+- [fastjson2](https://github.com/alibaba/fastjson2)
 - [gson](https://github.com/google/gson)
 - [jackson](https://github.com/FasterXML/jackson-databind)
 
-## 1. fastjson
+## 1. fastjson2
 
 maven 引用：
 
 ```xml
 <dependency>
-    <groupId>com.alibaba</groupId>
-    <artifactId>fastjson</artifactId>
-    <version>1.2.83</version>
+    <groupId>com.alibaba.fastjson2</groupId>
+    <artifactId>fastjson2</artifactId>
+    <version>${fastjson2.version}</version>
 </dependency>
 ```
 
