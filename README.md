@@ -35,7 +35,7 @@ maven 引用：
 <dependency>
     <groupId>com.google.code.gson</groupId>
     <artifactId>gson</artifactId>
-    <version>2.9.1</version>
+    <version>${gson.version}</version>
 </dependency>
 ```
 
@@ -60,7 +60,7 @@ maven 引用：
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>2.13.4</version>
+    <version>${jackson.version}</version>
 </dependency>
 ```
 
