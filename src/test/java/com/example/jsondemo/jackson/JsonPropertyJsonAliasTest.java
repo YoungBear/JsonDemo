@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * @github <a href="https://github.com/YoungBear">...</a>
  * @description @JasonProperty和@JsonAlias的用法和区别
  */
-public class JsonPropertyTest {
+public class JsonPropertyJsonAliasTest {
 
     @Test
     @DisplayName("序列化测试-@JsonProperty支持序列化-@JsonAlias不支持序列化")
