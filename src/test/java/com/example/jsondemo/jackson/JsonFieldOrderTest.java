@@ -33,7 +33,7 @@ public class JsonFieldOrderTest {
     }
 
     @Test
-    @DisplayName("使用@JsonField的ordinal指定顺序，数越小优先级越高，默认为0")
+    @DisplayName("使用@JsonPropertyOrder指定顺序")
     public void userJsonPropertyOrderTest() throws JsonProcessingException {
         Student2 student = new Student2();
         student.setName("John");
