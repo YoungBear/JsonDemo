@@ -1,6 +1,6 @@
 package com.example.jsondemo.utils;
 
-import com.example.jsondemo.strategy.FastjsonStrategy;
+import com.example.jsondemo.strategy.Fastjson2Strategy;
 import com.example.jsondemo.strategy.IJsonStrategy;
 
 /**
@@ -13,7 +13,7 @@ import com.example.jsondemo.strategy.IJsonStrategy;
  */
 public class JsonUtils {
     private final IJsonStrategy jsonStrategy;
-    private static final JsonUtils INSTANCE = new JsonUtils(new FastjsonStrategy());
+    private static final JsonUtils INSTANCE = new JsonUtils(new Fastjson2Strategy());
 
     private JsonUtils(IJsonStrategy jsonStrategy) {
         this.jsonStrategy = jsonStrategy;

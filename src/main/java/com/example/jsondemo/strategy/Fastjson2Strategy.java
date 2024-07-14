@@ -1,17 +1,17 @@
 package com.example.jsondemo.strategy;
 
 
-import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson2.JSON;
 
 /**
  * @author youngbear
  * @email youngbear@aliyun.com
- * @date 2024-07-14 19:51
- * @blog <a href="https://blog.csdn.net/next_second">...</a>
- * @github <a href="https://github.com/YoungBear">...</a>
+ * @date 2020/5/24 12:50
+ * @blog https://blog.csdn.net/next_second
+ * @github https://github.com/YoungBear
  * @description
  */
-public class FastjsonStrategy implements IJsonStrategy{
+public class Fastjson2Strategy implements IJsonStrategy {
     @Override
     public String toJSONString(Object obj) {
         return JSON.toJSONString(obj);
